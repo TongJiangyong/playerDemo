@@ -66,7 +66,7 @@ public class MediaplayerMainActivity extends AppCompatActivity {
         streamID = "streamid-" + randomSuffix;
         AppLogger.getInstance().i(getString(R.string.create_zego_engine));
         // 创建 ZEGO 引擎对象
-        mSDKEngine = ZegoExpressEngine.createEngine(SettingDataUtil.getAppId(), SettingDataUtil.getAppKey(), SettingDataUtil.getEnv(), SettingDataUtil.getScenario(), this.getApplication(), null);
+        mSDKEngine = ZegoExpressEngine.createEngine(1098290204L, "d0d4b79a8bdc664872662213130d6986204abc31093bc5186b3a2d1c0fe69a21", SettingDataUtil.getEnv(), SettingDataUtil.getScenario(), this.getApplication(), null);
         mSDKEngine.setEventHandler(mIZegoEventHandler);
         ZegoRoomConfig config = new ZegoRoomConfig();
         /* 使能用户登录/登出房间通知 */
