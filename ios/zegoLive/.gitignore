@@ -1,0 +1,15 @@
+build
+DerivedData
+ZGAppServiceConfig.h
+src/LiveRoomPlayground.xcodeproj/xcuserdata
+helper-scripts/__tmp_product__
+venv
+.idea
+deps/__pycache__
+xcode_construct/__pycache__
+zego_sdk_from_share_tmp
+__product_output__
+__tmp_product__
+*.framework
+*.a
+
